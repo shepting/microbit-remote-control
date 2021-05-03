@@ -18,6 +18,7 @@ joystickbit.onButtonEvent(joystickbit.JoystickBitPin.P12, joystickbit.ButtonType
     basic.showString("C")
     radio.sendString("C")
 })
+radio.setGroup(148)
 joystickbit.initJoystickBit()
 music.startMelody(music.builtInMelody(Melodies.Dadadadum), MelodyOptions.Once)
 basic.forever(function () {
